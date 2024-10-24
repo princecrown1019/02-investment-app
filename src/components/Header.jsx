@@ -5,7 +5,7 @@ export default function Header() {
 
     <header id="header">
         <img src={logo} alt="" />
-        <h1>React Investment Calculator</h1>
+        <h1>React Calculator</h1>
     </header>
 
     ) 
