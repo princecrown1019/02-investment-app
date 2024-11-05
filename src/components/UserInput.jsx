@@ -28,7 +28,7 @@ export default function UserInput({ onChange, userInput }) {
                     type="number"
                     required
                     value={userInput.expectedReturn}
-                    onChange={(event) => handleChange('expectedReturn', event.target.value)} />
+                    onChange={(event) => onChange('expectedReturn', event.target.value)} />
             </p>
             <p>
                 <label>Duration</label>
@@ -36,7 +36,7 @@ export default function UserInput({ onChange, userInput }) {
                     type="number"
                     required
                     value={userInput.duration}
-                    onChange={(event) => handleChange('duration', event.target.value)} />
+                    onChange={(event) => onChange('duration', event.target.value)} />
             </p>
         </div>
     </section>
